@@ -6,12 +6,12 @@ import 'colors.dart';
 
 class AppTheme {
   static ThemeData darkTheme = ThemeData(
-    scaffoldBackgroundColor: AppColors.black,
+    scaffoldBackgroundColor: AppColors.white,
     appBarTheme: const AppBarTheme(
       elevation: 0,
-      backgroundColor: AppColors.black,
+      backgroundColor: Colors.blue,
       systemOverlayStyle: SystemUiOverlayStyle(
-        statusBarColor: AppColors.black,
+        statusBarColor: Colors.blue,
         statusBarBrightness: Brightness.light,
         statusBarIconBrightness: Brightness.light,
       ),
@@ -88,10 +88,10 @@ class AppTheme {
           fontWeight: FontWeight.w500,
           fontFamily: "Lato"),
       bodyMedium: TextStyle(
-          color: AppColors.textColor,
-          fontSize: 14.sp,
-          fontWeight: FontWeight.w500,
-          fontFamily: "Lato"),
+          color: AppColors.C_838282,
+          fontSize: 18.sp,
+          fontWeight: FontWeight.w400,
+          fontFamily: "Spartan"),
       bodyLarge: TextStyle(
           color: AppColors.textColor,
           fontSize: 12.sp,

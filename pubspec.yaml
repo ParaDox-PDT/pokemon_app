@@ -73,3 +73,16 @@ flutter:
         - asset: assets/fonts/Poppins/Montserrat-Thin.ttf
         - asset: assets/fonts/Poppins/Montserrat-ThinItalic.ttf
           style: italic
+
+    - family: Spartan
+      fonts:
+        - asset: assets/fonts/Spartan/LeagueSpartan-Black.ttf
+        - asset: assets/fonts/Spartan/LeagueSpartan-Bold.ttf
+        - asset: assets/fonts/Spartan/LeagueSpartan-ExtraBold.ttf
+        - asset: assets/fonts/Spartan/LeagueSpartan-ExtraLight.ttf
+        - asset: assets/fonts/Spartan/LeagueSpartan-Light.ttf
+        - asset: assets/fonts/Spartan/LeagueSpartan-Medium.ttf
+        - asset: assets/fonts/Spartan/LeagueSpartan-Regular.ttf
+        - asset: assets/fonts/Spartan/LeagueSpartan-SemiBold.ttf
+        - asset: assets/fonts/Spartan/LeagueSpartan-Thin.ttf
+
