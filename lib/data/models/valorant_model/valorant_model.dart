@@ -2,7 +2,7 @@ class ValorantModel {
   final String name;
   final String developerName;
   final String img;
-  final List<String> colors;
+  final List<dynamic> colors;
 
   ValorantModel(
       {required this.name,
@@ -14,7 +14,7 @@ class ValorantModel {
     return ValorantModel(
         name: json["displayName"] as String? ?? "",
         img: json["displayIcon"] as String? ?? "",
-        colors: json["backgroundGradientColors"] as List<String>? ?? [],
+        colors: json["backgroundGradientColors"] as List<dynamic>? ?? [],
         developerName: json["developerName"] as String? ?? "");
   }
 }
